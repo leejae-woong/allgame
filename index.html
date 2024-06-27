@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>게임모음</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-image: url('background1.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        .container {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 flex flex-col items-center justify-center h-screen">
+    <div class="container text-center">
+        <h1 class="text-4xl font-bold mb-8">게임모음</h1>
+        <div class="space-y-4">
+            <button id="game1" class="btn bg-blue-500 text-white py-2 px-4 rounded">사기경마</button>
+            <button id="game2" class="btn bg-green-500 text-white py-2 px-4 rounded">소수결게임</button>
+            <button id="game3" class="btn bg-red-500 text-white py-2 px-4 rounded">콩의딜레마</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
